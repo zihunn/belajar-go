@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 	
-	authcontroller "github.com/zihunn/belajar-go/controllers"
+	authcontroller 
 )
 
 
