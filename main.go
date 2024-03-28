@@ -1,12 +1,13 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
+	
+	authcontroller "github.com/zihunn/belajar-go/controllers"
 )
 
 
 func main(){
 
-	http.HandleFunc("/", authController.Index)
+	http.HandleFunc("/", authcontroller.Index)
 }
